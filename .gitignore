@@ -1,0 +1,68 @@
+# Created by venv; see https://docs.python.org/3/library/venv.html
+*# -------------------------
+# Python
+# -------------------------
+__pycache__/
+*.py[cod]
+*$py.class
+
+# -------------------------
+# Virtual Environment
+# -------------------------
+venv/
+env/
+.venv/
+
+# -------------------------
+# Environment variables
+# -------------------------
+.env
+
+# -------------------------
+# Model / ML files
+# -------------------------
+*.pt
+*.pth
+*.bin
+*.ckpt
+*.h5
+
+# HuggingFace cache
+.cache/
+.huggingface/
+
+# -------------------------
+# Vector database
+# -------------------------
+vectorstore/
+*.index
+*.pkl
+
+# -------------------------
+# Logs
+# -------------------------
+logs/
+*.log
+
+# -------------------------
+# OS files
+# -------------------------
+.DS_Store
+Thumbs.db
+
+# -------------------------
+# IDE
+# -------------------------
+.vscode/
+.idea/
+
+# -------------------------
+# Streamlit
+# -------------------------
+.streamlit/
+
+# -------------------------
+# Temporary files
+# -------------------------
+tmp/
+temp/
